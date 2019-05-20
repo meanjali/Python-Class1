@@ -19,7 +19,7 @@ def show_product_list(products):
 
 def show_products(product):
     print "PRODUCT DATA"
-    print "NAME:                 {:s}".format(product.name)
+    print "NAME:                 {:s}".format(product.name)cx
     print "Price:                {:2f}".format(product.price)
     print "Discount Percent:     {:d}".format(product.discountPercent)
     print "DISCOUNT PRICE:       {:.2f}".format(product.getDiscountPrice())
